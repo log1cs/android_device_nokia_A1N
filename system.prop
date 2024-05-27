@@ -1,6 +1,2 @@
 # Camera
-persist.vendor.sys.exif.model="Nokia 8"
-
-# Fingerprint
-ro.boot.gxfp_lv=true
-sys.gxfp.lv=1
+persist.vendor.sys.exif.model="Nokia 8 Sirocco"

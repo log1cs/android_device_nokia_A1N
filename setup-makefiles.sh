@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=NLA
+DEVICE=A1N
 VENDOR=nokia
 
 # Load extract_utils and do some sanity checks

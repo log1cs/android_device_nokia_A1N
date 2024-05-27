@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/nokia/NLA
+DEVICE_PATH := device/nokia/A1N
 
 # Inherit from the common device configuration.
 TARGET_NOKIA_PLATFORM := msm8998
@@ -47,12 +47,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
-# Shims
-PRODUCT_PACKAGES += \
-    libshim_binder \
-    libshim_gui \
-    libfakelogprint
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.nb1.camera.rc \
@@ -64,7 +58,7 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    WifiOverlayNB1
+    WifiOverlayA1N
 
 # Inherit device specific vendor makefiles
-$(call inherit-product, vendor/nokia/NLA/NLA-vendor.mk)
+$(call inherit-product, vendor/nokia/A1N/A1N-vendor.mk)
