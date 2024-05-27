@@ -49,8 +49,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.nb1.camera.rc \
-    init.nb1.target.rc \
+    init.a1n.target.rc \
     init.fih.modemconfig.sh \
     init.fih.smartamp_init.sh \
     init.fih.poweroff_charging.rc \
