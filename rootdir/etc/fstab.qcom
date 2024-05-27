@@ -18,7 +18,6 @@
 /dev/block/bootdevice/by-name/persist    /mnt/vendor/persist    ext4   noatime,nosuid,nodev,barrier=1                                       wait
 
 # External storage
-/devices/soc/c0a4900.sdhci/mmc_host*                         auto    auto    nosuid,nodev    wait,voldmanaged=sdcard1:auto
 /devices/soc/a800000.ssusb/a800000.dwc3/xhci-hcd.*.auto*     auto    auto    nosuid,nodev    wait,voldmanaged=usbotg:auto
 
 /dev/block/zram0                                             none    swap    defaults        zramsize=50%
