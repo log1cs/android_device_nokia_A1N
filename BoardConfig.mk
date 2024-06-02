@@ -12,6 +12,9 @@ TARGET_BOARD_PLATFORM := msm8998
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# Permissive
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 # Inherit from common device tree
 include device/nokia/msm8998-common/BoardConfigCommon.mk
 
