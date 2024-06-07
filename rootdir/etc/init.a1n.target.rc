@@ -64,12 +64,6 @@ service fqcfingerprint /vendor/bin/fqcfingerprint
     oneshot
     disabled
 
-# Smartamp
-service amp-init-sh /vendor/bin/init.fih.smartamp_init.sh
-    class late_start
-    user system
-    oneshot
-
 # Modem config
 service fih_modemconfig /vendor/bin/init.fih.modemconfig.sh
     class late_start
