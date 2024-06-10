@@ -317,9 +317,6 @@ vendor/lib/libois_bu63165.so
 vendor/lib/libois_lc898122.so
 
 # Fingerprint
-system/lib64/libsoftkeymasterdevice.so:vendor/lib64/libsoftkeymasterdevice.so
-system/lib64/libkeymaster_messages.so:vendor/lib64/libkeymaster_messages.so
-system/lib64/libkeymaster_portable.so:vendor/lib64/libkeymaster_portable.so
 vendor/bin/fqcfingerprint
 vendor/bin/qfp-daemon
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8998.so

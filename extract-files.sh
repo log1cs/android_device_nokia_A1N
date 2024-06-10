@@ -12,6 +12,10 @@ function blob_fixup() {
     	system_ext/etc/permissions/audiosphere.xml)
             sed -i 's|/system/framework/audiosphere.jar|/system_ext/framework/audiosphere.jar|g' "${2}"
             ;;
+	# Remove all unused dependencies from FP blobs
+	vendor/lib64/libgoodixhwfingerprint.so)
+            "${PATCHELF}" --remove-needed "libsoftkeymasterdevice.so" "${2}"
+	    "${PATCHELF}" --remove-needed "libkeymaster_messages.so" "${2}"
     esac
 }
 

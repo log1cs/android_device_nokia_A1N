@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libgui_vendor:32
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    libkeymaster_messages.vendor
+
 # Hotword Enrollment
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-hotword.xml
