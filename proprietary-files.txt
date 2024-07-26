@@ -1,12 +1,9 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from NB1 (00WW_5_16A).
+## are from A1N_sprout (QKQ1.190828.002).
 
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
-vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
 vendor/lib/rfsa/adsp/libadsp_fd_skel.so
 vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so
 vendor/lib/rfsa/adsp/libadsp_hvx_skel.so
@@ -14,351 +11,208 @@ vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
-vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
-vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib/rfsa/adsp/libvpp_frc.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 
-# Audio (ACDB)
+# ACDB
+vendor/etc/acdbdata/A1N/Bluetooth_cal.acdb
+vendor/etc/acdbdata/A1N/General_cal.acdb
+vendor/etc/acdbdata/A1N/Global_cal.acdb
+vendor/etc/acdbdata/A1N/Handset_cal.acdb
+vendor/etc/acdbdata/A1N/Hdmi_cal.acdb
+vendor/etc/acdbdata/A1N/Headset_cal.acdb
+vendor/etc/acdbdata/A1N/Speaker_cal.acdb
+vendor/etc/acdbdata/A1N/workspaceFile_cal.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/NB1/Bluetooth_cal.acdb
-vendor/etc/acdbdata/NB1/General_cal.acdb
-vendor/etc/acdbdata/NB1/Global_cal.acdb
-vendor/etc/acdbdata/NB1/Handset_cal.acdb
-vendor/etc/acdbdata/NB1/Hdmi_cal.acdb
-vendor/etc/acdbdata/NB1/Headset_cal.acdb
-vendor/etc/acdbdata/NB1/Speaker_cal.acdb
-vendor/etc/acdbdata/NB1/workspaceFile.qwsp
-
-# Audio (Firmware)
-etc/firmware/tfa98xx.cnt:vendor/firmware/tfa98xx.cnt
-etc/firmware/tfa98xxEVT.cnt:vendor/firmware/tfa98xxEVT.cnt
 
 # Audio amplifier
-etc/audio/silence_48k.wav:vendor/etc/audio/silence_48k.wav
+vendor/etc/audio/silence_48k.wav
 
-# Camera HAL
-lib/sensors.rangefinder.so:vendor/lib/sensors.rangefinder.so
-lib64/sensors.rangefinder.so:vendor/lib64/sensors.rangefinder.so
-vendor/lib/libarcsoft_beautyshot.so
-vendor/lib/libarcsoft_beautyshot_video_algorithm.so
+# Audio
+etc/permissions/audiosphere.xml:system_ext/etc/permissions/audiosphere.xml
+-framework/audiosphere.jar:system_ext/framework/audiosphere.jar
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libdrc.so
+vendor/lib/libqtigef.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib64/libacdb-fts.so
+vendor/lib64/libacdbloader.so
+vendor/lib64/libacdbrtac.so
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
+vendor/lib64/libaudioalsa.so
+vendor/lib64/libaudioconfigstore.so
+vendor/lib64/libaudioparsers.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libqtigef.so
+
+# Audio (firmware)
+vendor/firmware/tfa98xx.cnt
+
+# Camera
+vendor/bin/mm-qcamera-app
+vendor/lib/hw/camera.msm8998.so
 vendor/lib/libdepthmapwrapper.so
-vendor/lib/libflash_pmic.so
+vendor/lib/libfih_camera_effect.so
+vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
+vendor/lib/libmm-qcamera.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmqjpeg_codec.so
-vendor/lib/libmmqjpegdma.so
-vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmlib2d_interface.so
-vendor/lib/libhal_dbg.so
+vendor/lib/libmmqjpegdma.so
+vendor/lib/libmmqjpeg_codec.so
+vendor/lib/libmmcamera_interface.so
 vendor/lib/libmpbase.so
 vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
+vendor/lib/libseemore.so
 vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libvideoutils.so
+vendor/lib64/libseemore.so
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libvideoutils.so
 
-# Camera (Sensors)
-vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera2_cpp_module.so
-vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
-vendor/lib/libmmcamera2_is.so
-vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_mct.so
-vendor/lib/libmmcamera2_mct_shimlayer.so
-vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera2_pproc_modules.so
-vendor/lib/libmmcamera2_q3a_core.so
-vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_lib.so
-vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/libmmcamera_bokeh.so
-vendor/lib/libmmcamera_csidtg.so
-vendor/lib/libmmcamera_dbg.so
-vendor/lib/libmmcamera_depth_map.so
-vendor/lib/libmmcamera_dummyalgo.so
-vendor/lib/libmmcamera_eebinparse.so
-vendor/lib/libmmcamera_eztune_module.so
-vendor/lib/libmmcamera_facedetection_lib.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
-vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_hvx_add_constant.so
-vendor/lib/libmmcamera_hvx_grid_sum.so
-vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
-vendor/lib/libmmcamera_imx258_color_fih.so
-vendor/lib/libmmcamera_imx258_front_fih.so
-vendor/lib/libmmcamera_imx258_mono_fih.so
-vendor/lib/libmmcamera_irs1645.so
-vendor/lib/libmmcamera_isp_abf48.so
-vendor/lib/libmmcamera_isp_aec_bg_stats47.so
-vendor/lib/libmmcamera_isp_bf_stats47.so
-vendor/lib/libmmcamera_isp_bg_stats46.so
-vendor/lib/libmmcamera_isp_bhist_stats44.so
-vendor/lib/libmmcamera_isp_black_level48.so
-vendor/lib/libmmcamera_isp_bpc48.so
-vendor/lib/libmmcamera_isp_cac47.so
-vendor/lib/libmmcamera_isp_chroma_enhan40.so
-vendor/lib/libmmcamera_isp_chroma_suppress40.so
-vendor/lib/libmmcamera_isp_clamp_encoder40.so
-vendor/lib/libmmcamera_isp_clamp_video40.so
-vendor/lib/libmmcamera_isp_clamp_viewfinder40.so
-vendor/lib/libmmcamera_isp_color_correct46.so
-vendor/lib/libmmcamera_isp_color_xform_encoder46.so
-vendor/lib/libmmcamera_isp_color_xform_video46.so
-vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so
-vendor/lib/libmmcamera_isp_cs_stats46.so
-vendor/lib/libmmcamera_isp_demosaic48.so
-vendor/lib/libmmcamera_isp_demux48.so
-vendor/lib/libmmcamera_isp_fovcrop_encoder46.so
-vendor/lib/libmmcamera_isp_fovcrop_video46.so
-vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so
-vendor/lib/libmmcamera_isp_gamma44.so
-vendor/lib/libmmcamera_isp_gic48.so
-vendor/lib/libmmcamera_isp_gtm46.so
-vendor/lib/libmmcamera_isp_hdr48.so
-vendor/lib/libmmcamera_isp_hdr_be_stats46.so
-vendor/lib/libmmcamera_isp_hdr_bhist_stats44.so
-vendor/lib/libmmcamera_isp_ihist_stats46.so
-vendor/lib/libmmcamera_isp_linearization40.so
-vendor/lib/libmmcamera_isp_ltm47.so
-vendor/lib/libmmcamera_isp_luma_adaptation40.so
-vendor/lib/libmmcamera_isp_mce40.so
-vendor/lib/libmmcamera_isp_mesh_rolloff44.so
-vendor/lib/libmmcamera_isp_pdaf48.so
-vendor/lib/libmmcamera_isp_pedestal_correct46.so
-vendor/lib/libmmcamera_isp_rs_stats46.so
-vendor/lib/libmmcamera_isp_scaler_encoder46.so
-vendor/lib/libmmcamera_isp_scaler_video46.so
-vendor/lib/libmmcamera_isp_scaler_viewfinder46.so
-vendor/lib/libmmcamera_isp_sce40.so
-vendor/lib/libmmcamera_isp_snr47.so
-vendor/lib/libmmcamera_isp_sub_module.so
-vendor/lib/libmmcamera_paaf_lib.so
-vendor/lib/libmmcamera_pdaf.so
-vendor/lib/libmmcamera_pdafcamif.so
-vendor/lib/libmmcamera_ppbase_module.so
-vendor/lib/libmmcamera_ppeiscore.so
-vendor/lib/libmmcamera_quadracfa.so
-vendor/lib/libmmcamera_s5k3l8.so
-vendor/lib/libmmcamera_s5k3l8_mono.so
-vendor/lib/libmmcamera_s5k3l8_nb1.so
-vendor/lib/libmmcamera_s5k3m2xm.so
-vendor/lib/libmmcamera_s5k3m2xx.so
-vendor/lib/libmmcamera_s5k3m3sm.so
-vendor/lib/libmmcamera_s5k3p3sm.so
-vendor/lib/libmmcamera_s5k3p8sp.so
-vendor/lib/libmmcamera_sw2d_lib.so
-vendor/lib/libmmcamera_thread_services.so
-vendor/lib/libmmcamera_tintless_algo.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib/libmmcamera_tuning.so
-vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib64/libmmcamera2_frame_algorithm.so
-vendor/lib64/libmmcamera2_is.so
-vendor/lib64/libmmcamera2_q3a_core.so
-vendor/lib64/libmmcamera2_stats_algorithm.so
-vendor/lib64/libmmcamera2_stats_lib.so
-vendor/lib64/libmmcamera_dbg.so
-vendor/lib64/libmmcamera_faceproc.so
-vendor/lib64/libmmcamera_faceproc2.so
-vendor/lib64/libmmcamera_tintless_algo.so
-vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
-
-# Camera (Actuators)
+# Camera (actuators)
+vendor/lib/libactuator_ak7345.so
 vendor/lib/libactuator_ak7371.so
-vendor/lib/libactuator_ak7371_color_fih.so
-vendor/lib/libactuator_ak7371_mono_fih.so
-vendor/lib/libactuator_single_ak7371_mono_fih.so
-vendor/lib/libactuator_dw9714.so
-vendor/lib/libactuator_dw9714_front_fih.so
-vendor/lib/libactuator_pseudo.so
+vendor/lib/libactuator_ak7371_tele_a1n.so
+vendor/lib/libactuator_ak7371_wide_a1n.so
 
-# Camera (OIS)
-vendor/lib/libois_bu24218.so
-vendor/lib/libois_bu63165.so
-vendor/lib/libois_lc898122.so
+# Camera (chromatix)
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_preview_3a.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_video_3a.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_common.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_hfr_60.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_liveshot.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_preview.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_snapshot.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video_4k.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_default_preview_3a.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_default_video_3a.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60_3a.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_postproc.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_preview.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_snapshot.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_snapshot_longexposure.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_versions.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_video.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_video_4k.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_preview_3a.so
+vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_video_3a.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_4k_preview_3a.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_4k_video_3a.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_common.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_hfr_120.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_hfr_60.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_hfr_90.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_liveshot.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_preview.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_snapshot.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video_4k.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_default_preview_3a.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_default_video.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_default_video_3a.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_120.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_120_3a.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60_3a.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_90.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_90_3a.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_liveshot.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_postproc.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_preview.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_snapshot.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_versions.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_video_4k.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_preview_3a.so
+vendor/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_video_3a.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_4k_preview_3a.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_4k_video_3a.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_common.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_120.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_60.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_90.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_liveshot.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_preview.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_snapshot.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_video.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_video_4k.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_default_preview_3a.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_default_video.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_default_video_3a.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_120.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_120_3a.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_60.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_60_3a.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_90.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_90_3a.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_liveshot.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_postproc.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_preview.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_snapshot.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_versions.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_video_4k.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_zsl_preview_3a.so
+vendor/lib/libchromatix_s5k4e8_a1n_front_zsl_video_3a.so
 
-# Camera (Configs)
+# Camera (Arcsoft)
+vendor/lib/libarcsoft_beautyshot_image_algorithm.so
+vendor/lib/libarcsoft_beautyshot.so
+vendor/lib/libarcsoft_beautyshot_video_algorithm.so
+vendor/lib/libarcsoft_dualcam_refocus.so
+vendor/lib/libarcsoft_night_shot.so
+vendor/lib/libarcsoft_picselfie_algorithm.so
+vendor/lib/libarcsoft_smart_denoise.so
+
+# Camera (configs)
+vendor/etc/A1N/ncf/aux/ISO200_1280x720.ncf
+vendor/etc/A1N/ncf/aux/ISO200_1600x1200.ncf
+vendor/etc/A1N/ncf/aux/ISO200_2688x1512.ncf
+vendor/etc/A1N/ncf/aux/ISO200_3200x2400.ncf
+vendor/etc/A1N/ncf/aux/ISO200_3840x2160.ncf
+vendor/etc/A1N/ncf/aux/ISO200_4000x3000.ncf
+vendor/etc/A1N/ncf/rear/ISO200_1280x720.ncf
+vendor/etc/A1N/ncf/rear/ISO200_1600x1200.ncf
+vendor/etc/A1N/ncf/rear/ISO200_2688x1512.ncf
+vendor/etc/A1N/ncf/rear/ISO200_3200x2400.ncf
+vendor/etc/A1N/ncf/rear/ISO200_3840x2160.ncf
+vendor/etc/A1N/ncf/rear/ISO200_4000x3000.ncf
 vendor/etc/camera/camera_config.xml
-vendor/etc/camera/csidtg_camera.xml
-vendor/etc/camera/csidtg_chromatix.xml
-vendor/etc/camera/imx258_color_nb1_chromatix.xml
-vendor/etc/camera/imx258_mono_nb1_chromatix.xml
-vendor/etc/camera/s5k3l8_front_nb1_chromatix.xml
+vendor/etc/camera/s5k3m3sm_a1n_tele_chromatix.xml
+vendor/etc/camera/s5k2l7sa05_a1n_wide_chromatix.xml
+vendor/etc/camera/s5k4e8_a1n_front_chromatix.xml
 
-# Camera (Chromatix)
-vendor/lib/libchromatix_csidtg_common.so
-vendor/lib/libchromatix_csidtg_cpp_preview.so
-vendor/lib/libchromatix_csidtg_postproc.so
-vendor/lib/libchromatix_csidtg_preview.so
-vendor/lib/libchromatix_csidtg_zsl_preview.so
-vendor/lib/libchromatix_imx258_color_nb1_4k_preview_3a.so
-vendor/lib/libchromatix_imx258_color_nb1_4k_video_3a.so
-vendor/lib/libchromatix_imx258_color_nb1_common.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_hfr_120.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_hfr_60.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_hfr_90.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_liveshot.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_preview.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_snapshot.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_video.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_video_1080p.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_video_4k.so
-vendor/lib/libchromatix_imx258_color_nb1_cpp_video_720p.so
-vendor/lib/libchromatix_imx258_color_nb1_default_preview_3a.so
-vendor/lib/libchromatix_imx258_color_nb1_default_video.so
-vendor/lib/libchromatix_imx258_color_nb1_default_video_3a.so
-vendor/lib/libchromatix_imx258_color_nb1_hfr_120.so
-vendor/lib/libchromatix_imx258_color_nb1_hfr_120_3a.so
-vendor/lib/libchromatix_imx258_color_nb1_hfr_60.so
-vendor/lib/libchromatix_imx258_color_nb1_hfr_60_3a.so
-vendor/lib/libchromatix_imx258_color_nb1_hfr_90.so
-vendor/lib/libchromatix_imx258_color_nb1_hfr_90_3a.so
-vendor/lib/libchromatix_imx258_color_nb1_liveshot.so
-vendor/lib/libchromatix_imx258_color_nb1_postproc.so
-vendor/lib/libchromatix_imx258_color_nb1_preview.so
-vendor/lib/libchromatix_imx258_color_nb1_snapshot.so
-vendor/lib/libchromatix_imx258_color_nb1_versions.so
-vendor/lib/libchromatix_imx258_color_nb1_video_4k.so
-vendor/lib/libchromatix_imx258_color_nb1_zsl_preview_3a.so
-vendor/lib/libchromatix_imx258_color_nb1_zsl_video_3a.so
-vendor/lib/libchromatix_imx258_front_nb1_4k_preview_3a.so
-vendor/lib/libchromatix_imx258_front_nb1_4k_video_3a.so
-vendor/lib/libchromatix_imx258_front_nb1_common.so
-vendor/lib/libchromatix_imx258_front_nb1_cpp_hfr_120.so
-vendor/lib/libchromatix_imx258_front_nb1_cpp_hfr_60.so
-vendor/lib/libchromatix_imx258_front_nb1_cpp_hfr_90.so
-vendor/lib/libchromatix_imx258_front_nb1_cpp_liveshot.so
-vendor/lib/libchromatix_imx258_front_nb1_cpp_preview.so
-vendor/lib/libchromatix_imx258_front_nb1_cpp_snapshot.so
-vendor/lib/libchromatix_imx258_front_nb1_cpp_video.so
-vendor/lib/libchromatix_imx258_front_nb1_cpp_video_4k.so
-vendor/lib/libchromatix_imx258_front_nb1_default_preview_3a.so
-vendor/lib/libchromatix_imx258_front_nb1_default_video.so
-vendor/lib/libchromatix_imx258_front_nb1_default_video_3a.so
-vendor/lib/libchromatix_imx258_front_nb1_hfr_120.so
-vendor/lib/libchromatix_imx258_front_nb1_hfr_120_3a.so
-vendor/lib/libchromatix_imx258_front_nb1_hfr_60.so
-vendor/lib/libchromatix_imx258_front_nb1_hfr_60_3a.so
-vendor/lib/libchromatix_imx258_front_nb1_hfr_90.so
-vendor/lib/libchromatix_imx258_front_nb1_hfr_90_3a.so
-vendor/lib/libchromatix_imx258_front_nb1_liveshot.so
-vendor/lib/libchromatix_imx258_front_nb1_postproc.so
-vendor/lib/libchromatix_imx258_front_nb1_preview.so
-vendor/lib/libchromatix_imx258_front_nb1_snapshot.so
-vendor/lib/libchromatix_imx258_front_nb1_versions.so
-vendor/lib/libchromatix_imx258_front_nb1_video_4k.so
-vendor/lib/libchromatix_imx258_front_nb1_zsl_preview_3a.so
-vendor/lib/libchromatix_imx258_front_nb1_zsl_video_3a.so
-vendor/lib/libchromatix_imx258_mono_nb1_4k_preview_3a.so
-vendor/lib/libchromatix_imx258_mono_nb1_4k_video_3a.so
-vendor/lib/libchromatix_imx258_mono_nb1_common.so
-vendor/lib/libchromatix_imx258_mono_nb1_cpp_hfr_120.so
-vendor/lib/libchromatix_imx258_mono_nb1_cpp_hfr_60.so
-vendor/lib/libchromatix_imx258_mono_nb1_cpp_hfr_90.so
-vendor/lib/libchromatix_imx258_mono_nb1_cpp_liveshot.so
-vendor/lib/libchromatix_imx258_mono_nb1_cpp_preview.so
-vendor/lib/libchromatix_imx258_mono_nb1_cpp_snapshot.so
-vendor/lib/libchromatix_imx258_mono_nb1_cpp_video.so
-vendor/lib/libchromatix_imx258_mono_nb1_cpp_video_4k.so
-vendor/lib/libchromatix_imx258_mono_nb1_default_preview_3a.so
-vendor/lib/libchromatix_imx258_mono_nb1_default_video.so
-vendor/lib/libchromatix_imx258_mono_nb1_default_video_3a.so
-vendor/lib/libchromatix_imx258_mono_nb1_hfr_120.so
-vendor/lib/libchromatix_imx258_mono_nb1_hfr_120_3a.so
-vendor/lib/libchromatix_imx258_mono_nb1_hfr_60.so
-vendor/lib/libchromatix_imx258_mono_nb1_hfr_60_3a.so
-vendor/lib/libchromatix_imx258_mono_nb1_hfr_90.so
-vendor/lib/libchromatix_imx258_mono_nb1_hfr_90_3a.so
-vendor/lib/libchromatix_imx258_mono_nb1_liveshot.so
-vendor/lib/libchromatix_imx258_mono_nb1_postproc.so
-vendor/lib/libchromatix_imx258_mono_nb1_preview.so
-vendor/lib/libchromatix_imx258_mono_nb1_snapshot.so
-vendor/lib/libchromatix_imx258_mono_nb1_versions.so
-vendor/lib/libchromatix_imx258_mono_nb1_video_4k.so
-vendor/lib/libchromatix_imx258_mono_nb1_zsl_preview_3a.so
-vendor/lib/libchromatix_imx258_mono_nb1_zsl_video_3a.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_4k_preview_3a.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_4k_video_3a.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_common.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_cpp_hfr_120.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_cpp_hfr_60.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_cpp_hfr_90.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_cpp_liveshot.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_cpp_preview.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_cpp_snapshot.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_cpp_video.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_cpp_video_4k.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_default_preview_3a.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_default_video.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_default_video_3a.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_hfr_120.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_hfr_120_3a.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_hfr_60.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_hfr_60_3a.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_hfr_90.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_hfr_90_3a.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_liveshot.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_postproc.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_preview.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_snapshot.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_versions.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_video_4k.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_zsl_preview_3a.so
-vendor/lib/libchromatix_imx258_single_mono_nb1_zsl_video_3a.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_4k_preview_3a.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_4k_video_3a.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_common.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_cpp_hfr_60.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_cpp_hfr_90.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_cpp_liveshot.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_cpp_preview.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_cpp_preview_hfr_120.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_cpp_snapshot.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_cpp_video.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_cpp_video_4k.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_default_preview_3a.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_default_video.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_default_video_3a.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_hfr_120.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_hfr_120_3a.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_hfr_60.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_hfr_60_3a.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_hfr_90.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_hfr_90_3a.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_liveshot.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_postproc.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_preview.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_snapshot.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_versions.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_video_4k.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_zsl_preview_3a.so
-vendor/lib/libchromatix_s5k3l8_front_nb1_zsl_video_3a.so
+# Camera (EEPROM)
+vendor/lib/libmmcamera_m24c64s_tele_a1n_eeprom.so
+vendor/lib/libmmcamera_m24c64t_wide_a1n_eeprom.so
+vendor/lib/libmmcamera_s5k2l7sa05_wide_a1n.so
+vendor/lib/libmmcamera_s5k3m3sm_tele_a1n.so
+vendor/lib/libmmcamera_s5k4e8_front_a1n.so
+vendor/lib/libmmcamera_s5k4e8_front_a1n_eeprom.so
 
-# Camera (Eeprom)
-vendor/lib/libmmcamera_imx258_at24c64d_front_fih_eeprom.so
-vendor/lib/libmmcamera_cat24c64_MONO_eeprom.so
-vendor/lib/libmmcamera_cat24c64_RGB_eeprom.so
-vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so
-vendor/lib/libmmcamera_ohp0497_eeprom.so
-vendor/lib/libmmcamera_eeprom_util.so
-
-# Camera (Firmware)
+# Camera (firmware)
 vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_12_0.fw
 vendor/firmware/cpp_firmware_v1_1_1.fw
@@ -372,7 +226,44 @@ vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera (ISP)
+vendor/lib/libmmcamera2_c2d_module.so
+vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_frame_algorithm.so
+vendor/lib/libmmcamera2_iface_modules.so
+vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_is.so
 vendor/lib/libmmcamera2_isp_modules.so
+vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_mct_shimlayer.so
+vendor/lib/libmmcamera2_pproc_modules.so
+vendor/lib/libmmcamera2_pp_buf_mgr.so
+vendor/lib/libmmcamera2_q3a_core.so
+vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_stats_algorithm.so
+vendor/lib/libmmcamera2_stats_lib.so
+vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera_arcsoftbokeh_lib.so
+vendor/lib/libmmcamera_bokeh.so
+vendor/lib/libmmcamera_csidtg.so
+vendor/lib/libmmcamera_dbg.so
+vendor/lib/libmmcamera_depth_map.so
+vendor/lib/libmmcamera_dummyalgo.so
+vendor/lib/libmmcamera_dw9761b_2d_eeprom.so
+vendor/lib/libmmcamera_eebinparse.so
+vendor/lib/libmmcamera_eeprom_util.so
+vendor/lib/libmmcamera_eztune_module.so
+vendor/lib/libmmcamera_facedetection_lib.so
+vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_faceproc2.so
+vendor/lib/libmmcamera_hdr_gb_lib.so
+vendor/lib/libmmcamera_hvx_add_constant.so
+vendor/lib/libmmcamera_hvx_grid_sum.so
+vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
+vendor/lib/libmmcamera_pdaf.so
+vendor/lib/libmmcamera_ppbase_module.so
+vendor/lib/libmmcamera_pdafcamif.so
+vendor/lib/libmmcamera_ppeiscore.so
 vendor/lib/libmmcamera_isp_abf48.so
 vendor/lib/libmmcamera_isp_aec_bg_stats47.so
 vendor/lib/libmmcamera_isp_bf_stats47.so
@@ -417,45 +308,45 @@ vendor/lib/libmmcamera_isp_scaler_viewfinder46.so
 vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
+vendor/lib/libmmcamera_sw2d_lib.so
+vendor/lib/libmmcamera_thread_services.so
+vendor/lib/libmmcamera_tintless_algo.so
+vendor/lib/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib/libmmcamera_truly_cma481_eeprom.so
+vendor/lib/libmmcamera_truly_cmb433_eeprom.so
+vendor/lib/libmmcamera_tuning.so
+vendor/lib/libmmcamera_tuning_lookup.so
+vendor/lib64/libmmcamera2_frame_algorithm.so
+vendor/lib64/libmmcamera2_is.so
+vendor/lib64/libmmcamera2_q3a_core.so
+vendor/lib64/libmmcamera2_stats_algorithm.so
+vendor/lib64/libmmcamera2_stats_lib.so
+vendor/lib64/libmmcamera_dbg.so
+vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_faceproc2.so
+vendor/lib64/libmmcamera_tintless_algo.so
+vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
-# Display (Firmware)
-vendor/firmware/TP_Firmware_JDI
-vendor/firmware/TP_Firmware_LG4946
-vendor/firmware/leia_pfp_470.fw
-vendor/firmware/leia_pm4_470.fw
+# Camera (OIS)
+vendor/lib/libois_bu63165.so
+vendor/lib/libois_lc898122.so
 
 # Fingerprint
-vendor/bin/gx_fpd
+vendor/bin/fqcfingerprint
 vendor/bin/qfp-daemon
+vendor/etc/permissions/qti_fingerprint_interface.xml
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8998.so
-vendor/lib64/hw/gxfingerprint.default.so
-vendor/lib64/libfp_client.so|d04b25d43114dc9c5c8e4803a2ebaca156a828a4
-vendor/lib64/libfpjni.so
-vendor/lib64/libfpservice.so
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
+vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so
 vendor/lib64/libqfp-service.so
-
-# Fingerprint (Firmware)
-etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
-etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
-etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02
-etc/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03
-etc/firmware/goodixfp.b04:vendor/firmware/goodixfp.b04
-etc/firmware/goodixfp.b05:vendor/firmware/goodixfp.b05
-etc/firmware/goodixfp.b06:vendor/firmware/goodixfp.b06
-etc/firmware/goodixfp.b07:vendor/firmware/goodixfp.b07
-etc/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt
-etc/firmware/goodixfplv.b00:vendor/firmware/goodixfplv.b00
-etc/firmware/goodixfplv.b01:vendor/firmware/goodixfplv.b01
-etc/firmware/goodixfplv.b02:vendor/firmware/goodixfplv.b02
-etc/firmware/goodixfplv.b03:vendor/firmware/goodixfplv.b03
-etc/firmware/goodixfplv.b04:vendor/firmware/goodixfplv.b04
-etc/firmware/goodixfplv.b05:vendor/firmware/goodixfplv.b05
-etc/firmware/goodixfplv.b06:vendor/firmware/goodixfplv.b06
-etc/firmware/goodixfplv.b07:vendor/firmware/goodixfplv.b07
-etc/firmware/goodixfplv.mdt:vendor/firmware/goodixfplv.mdt
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.msm8998.so
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/gatekeeper.msm8998.so
 
 # Graphics (Firmware)
@@ -469,11 +360,17 @@ vendor/firmware/a540_zap.elf
 vendor/firmware/a540_zap.mdt
 
 # Hotword Enrollment
--priv-app/HotwordEnrollmentOKGoogleWCD9335/HotwordEnrollmentOKGoogleWCD9335.apk:system_ext/priv-app/HotwordEnrollmentOKGoogleWCD9335/HotwordEnrollmentOKGoogleWCD9335.apk
--priv-app/HotwordEnrollmentTGoogleWCD9335/HotwordEnrollmentTGoogleWCD9335.apk:system_ext/priv-app/HotwordEnrollmentTGoogleWCD9335/HotwordEnrollmentTGoogleWCD9335.apk
--priv-app/HotwordEnrollmentXGoogleWCD9335/HotwordEnrollmentXGoogleWCD9335.apk:system_ext/priv-app/HotwordEnrollmentXGoogleWCD9335/HotwordEnrollmentXGoogleWCD9335.apk
+-product/priv-app/HotwordEnrollmentOKGoogleWCD9335/HotwordEnrollmentOKGoogleWCD9335.apk:system_ext/priv-app/HotwordEnrollmentOKGoogleWCD9335/HotwordEnrollmentOKGoogleWCD9335.apk
+-product/priv-app/HotwordEnrollmentTGoogleWCD9335/HotwordEnrollmentTGoogleWCD9335.apk:system_ext/priv-app/HotwordEnrollmentTGoogleWCD9335/HotwordEnrollmentTGoogleWCD9335.apk
+-product/priv-app/HotwordEnrollmentXGoogleWCD9335/HotwordEnrollmentXGoogleWCD9335.apk:system_ext/priv-app/HotwordEnrollmentXGoogleWCD9335/HotwordEnrollmentXGoogleWCD9335.apk
 
-# IPA
+# IFAA
+vendor/bin/hw/vendor.fih.hardware.ifaa@1.0-service
+vendor/etc/init/vendor.fih.hardware.ifaa@1.0-service.rc
+vendor/lib/vendor.fih.hardware.ifaa@1.0.so
+vendor/lib64/vendor.fih.hardware.ifaa@1.0.so
+
+# IPA (Firmware)
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
 vendor/firmware/ipa_fws.b02
@@ -483,8 +380,15 @@ vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
 # Keystore
-vendor/lib/hw/keystore.msm8998.so
 vendor/lib64/hw/keystore.msm8998.so
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterprovision.so
+vendor/lib64/libkeymasterutils.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.msm8998.so
@@ -501,28 +405,45 @@ vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
 
 # Panel calibration
-vendor/bin/qdcm_calib_data_JDI_Dual_nt36850_cmd_mode_dsi_panel_without_DSC.xml
-vendor/bin/qdcm_calib_data_LGD_Dual_DSI_cmd_mode_panel_without_DSC.xml
+vendor/bin/qdcm_calib_data_LGD_cmd_mode_dsc_dsi_panel.xml
 
 # Sensors
 vendor/bin/sensors.qti
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
-vendor/lib/libsns_low_lat_stream_stub.so
-vendor/lib/sensor_calibrate.so
+vendor/lib/libssc_default_listener.so
 vendor/lib/sensors.ssc.so
+vendor/lib/sensor_calibrate.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/sensor_calibrate.so
+vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
+vendor/lib64/sensor_calibrate.so
 
 # Sensor configurations
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_qcomdev.conf
 
-# Wi-Fi
-vendor/etc/wifi/bdf/bdwlan_nb1_def.bin
-vendor/etc/wifi/bdf/bdwlan_pkg_nb1.bin
+# Soter
+-product/framework/vendor.qti.hardware.soter-V1.0-java.jar:system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar
+product/lib/vendor.qti.hardware.soter@1.0.so:system_ext/lib/vendor.qti.hardware.soter@1.0.so
+product/lib64/vendor.qti.hardware.soter@1.0.so:system_ext/lib64/vendor.qti.hardware.soter@1.0.so
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
+vendor/bin/vendor.qti.hardware.soter@1.0-provision
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib/vendor.qti.hardware.soter@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.soter@1.0.so
+
+# Touchscreen (firmware)
+vendor/firmware/leia_pfp_470.fw
+vendor/firmware/leia_pm4_470.fw
+vendor/firmware/TP_Firmware_JDI
+vendor/firmware/TP_Firmware_LG4946
+
+# Wi-Fi firmware
 vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
+vendor/etc/wifi/bdf/bdwlan_QC60_CS2_LA1.1_00122.bin
+vendor/etc/wifi/bdf/CS2_IC_Golden_FWCS_20170315.bin

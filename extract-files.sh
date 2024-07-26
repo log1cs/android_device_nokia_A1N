@@ -8,7 +8,6 @@
 
 function blob_fixup() {
     case "${1}" in
-	    ;;
     esac
 }
 
