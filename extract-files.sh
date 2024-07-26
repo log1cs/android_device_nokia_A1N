@@ -8,6 +8,10 @@
 
 function blob_fixup() {
     case "${1}" in
+	# Patch Goodix fingerprint extensions to fix getBnConstructorMap
+	vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so)
+            "${PATCHELF_0_17_2}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+	;;
     esac
 }
 
