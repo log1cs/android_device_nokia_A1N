@@ -1,5 +1,2 @@
 # Camera
-persist.vendor.sys.exif.model="Nokia 8"
-
-# Fingerprint
-sys.gxfp.lv=1
+persist.vendor.sys.exif.model="Nokia 8 Sirocco"

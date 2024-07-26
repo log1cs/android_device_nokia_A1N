@@ -1,8 +1,5 @@
 # Bluetooth
-bluetooth.device.default_name=Nokia 8
-
-# Navigation bar
-qemu.hw.mainkeys=1
+bluetooth.device.default_name=Nokia 8 Sirocco
 
 # SOC properties
 ro.soc.model=MSM8998

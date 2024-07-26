@@ -1,22 +1,19 @@
-# Device configurations for Nokia 8 (NB1)
+# Device configurations for Nokia 8 Sirocco (A1N)
 
-The Nokia 8 (codenamed "NB1") is a flagship Nokia-branded smartphone running the Android operating system. Announced on 16 August 2017 in London, England by HMD Global, the phone began sales in Europe in September 2017. Nokia 8 is the first high-end Nokia-branded device since the Nokia Lumia 930 in 2014.
+The Nokia 8 Sirocco (codenamed "A1N") is a flagship Nokia-branded smartphone running the Android operating system, released in 2018.
 
 ## Device specifications
-| Basic                   | Spec Sheet                                                                                                                     |
-| -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
-| CPU                     | Octa-core (4x2.5 GHz Kryo & 4x1.8 GHz Kryo)                                                                           |
-| Chipset                 | Qualcomm MSM8998 Snapdragon 835 (10 nm)                                                                                                 |
-| GPU                     | Adreno 540                                                                                                                     |
-| Memory                  | 4/6 GB RAM                                                                                                                     |
-| Shipped Android Version | Android 7.1.1 (Nougat), upgradeable to Android 9 (Pie)                                                                                                                            |
-| Storage                 | 64/128 GB                                                                                                                          |
-| Battery                 | Non-removable Li-Ion 3090 mAh battery                                                                                           |
-| Display                 | 1440 x 2560 pixels, 16:9 ratio (~554 ppi density)                                                                              |
-| Camera (Back)           | 13 MP, f/2.0, 1/3.1", 1.12µm, PDAF, Laser AF, OIS                                                                              |
-| Camera (Front)          | 13 MP, f/2.0, (wide), 1/3.1", 1.12µm, PDAF                                                                                                    |
-## Device picture
+| Basic                   | Spec Sheet                                                                                                                      |
+| -----------------------:|:------------------------------------------------------------------------------------------------------------------------------- |
+| CPU                     | Octa-core (4x2.5 GHz Kryo & 4x1.8 GHz Kryo)                                                                                     |
+| Chipset                 | Qualcomm MSM8998 Snapdragon 835 (10 nm)                                                                                         |
+| GPU                     | Adreno 540                                                                                                                      |
+| Memory                  | 6GB RAM                                                                                                                         |
+| Shipped Android Version | Android 8.0 (Oreo), upgradable to Android 10, Android One                                                                       |
+| Storage                 | 128 GB                                                                                                                          |
+| Battery                 | Non-removable Li-Ion 3260 mAh battery                                                                                           |
+| Display                 | 1440 x 2560 pixels P-OLED display, 16:9 ratio (~554 ppi density)                                                                |
+| Camera (Back)           | 12 MP, f/1.8, 25mm (wide), 1/2.55", 1.4µm, dual pixel PDAF and 13 MP, f/2.6, (telephoto), 1/3.4", 1.0µm, AF, 2x optical zoom    |
+| Camera (Front)          | 5 MP, f/2.0, 1/4.0", 1.4µm                                                                                                      |
 
-![Nokia 8](https://cdn.arstechnica.net/wp-content/uploads/sites/3/2017/08/small-Nokia-8-Family-1.jpg)
-
-**Copyright 2023 - The LineageOS Project**
+*Copyright 2024 - The LineageOS Project*

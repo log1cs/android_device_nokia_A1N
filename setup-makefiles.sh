@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=NB1
+export DEVICE=A1N
 export DEVICE_COMMON=msm8998-common
 export VENDOR=nokia
 export VENDOR_COMMON=${VENDOR}
