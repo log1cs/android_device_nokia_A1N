@@ -25,6 +25,9 @@ PRODUCT_MODEL := Nokia 8 Sirocco
 
 PRODUCT_GMS_CLIENTID_BASE := android-hmd-rev2
 
+# This platform does not have an SDCard slot.
+PRODUCT_CHARACTERISTICS := nosdcard
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=Avenger_00WW \
     PRIVATE_BUILD_DESC="A1N_00WW_FIH-user 10 QKQ1.190828.002 00WW_5_14L release-keys"
