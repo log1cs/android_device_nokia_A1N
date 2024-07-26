@@ -73,7 +73,6 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.a1n.camera.rc \
     init.a1n.target.rc \
     init.fih.modemconfig.rc \
     init.fih.modemconfig.sh \
