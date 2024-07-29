@@ -9,9 +9,6 @@ DEVICE_PATH := device/nokia/A1N
 # QCOM
 TARGET_BOARD_PLATFORM := msm8998
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Permissive
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
@@ -26,6 +23,9 @@ TARGET_SUPPORT_HAL1 := false
 
 # Density
 TARGET_SCREEN_DENSITY := 520
+
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_A1N_defconfig
