@@ -59,22 +59,5 @@ on boot
     chmod 0664 /sys/class/power_supply/battery/input_suspend
     restorecon /sys/class/power_supply/battery/input_suspend
 
-service fqcfingerprint /vendor/bin/fqcfingerprint
-    user system
-    oneshot
-    disabled
-
-on property:vendor.sys.fqcfingerprint=1
-    start fqcfingerprint
-
-on property:vendor.sys.fqcfingerprint=2
-    start fqcfingerprint
-
-on property:vendor.sys.fqcfingerprint=3
-    start fqcfingerprint
-
-on property:vendor.sys.fqcfingerprint=4
-    start fqcfingerprint
-
 on property:sys.boot_completed=1
     restorecon_recursive /data/system/fingerprint/
