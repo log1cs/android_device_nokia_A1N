@@ -34,7 +34,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libgui_vendor:32
+    libgui_vendor:32 \
+    libcamera_metadata.vendor
 
 # HIDL
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
