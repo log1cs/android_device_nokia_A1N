@@ -1,6 +1,10 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from A1N_sprout (QKQ1.190828.002).
 
+# ADSP
+vendor/lib/libfastcvadsp_stub.so
+vendor/lib64/libfastcvadsp_stub.so
+
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
